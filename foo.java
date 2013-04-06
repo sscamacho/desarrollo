@@ -6,7 +6,7 @@ private String firstName;
 
 private String lastName;
 
-
+private String secondName;
 
 public String getFirstName() {
 
@@ -32,4 +32,21 @@ this.lastName = lastName;
 
 }
 
+public void setLastName(String lastName) {
+
+this.lastName = lastName;
+
+}
+
+public String getSecondName() {
+
+return secondName;
+
+}
+
+public void setSecondName(String secondName) {
+
+this.secondName = secondName;
+
+}
 }
